@@ -29,10 +29,6 @@
         padding: 0;
       }
 
-      *[class="gmail-fix"] {
-      display: none !important;
-      }
-
       .content-left,
       .content-right {
       width: 100% !important;
@@ -40,13 +36,18 @@
 
       .content table,
       .content-wrapper,
-      .content,
-      .menu,
-      .full_td {
-      width: 100% !important;
-      max-width: 600px !important;
+      .content {
+        width: 100% !important;
+        max-width: 600px !important;
       }
 
+      .table-radius{
+        border-radius: 15px 15px 0 0 !important;
+      }
+      .adaptive-img {
+          width: 100% !important;
+          height: auto !important;
+      }
       .mobile_p0{
         padding: 0px !important;
       }
@@ -57,7 +58,7 @@
         padding-right: 0px !important;
       }
       .mobile_p0b{
-        padding-bottom: 0px !important;;
+        padding-bottom: 0px !important;
       }
       .mobile_p24t{
         padding-top: 24px !important;
@@ -66,7 +67,7 @@
         padding-bottom: 24px !important;
       }
       table.not-adaptive {
-        width: auto !important
+        width: auto !important;
       }
   }   
   </style>
@@ -89,15 +90,15 @@
                 <td align="center" style="padding:0;Margin:0;">
                   <table align="center" cellpadding="0" cellspacing="0" bgcolor="#f6f6f6" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#f6f6f6;width:600px;" >                          
                     <tr>
-                      <td style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;">
+                      <td style="padding-top:0px;padding-bottom:0px;padding-right:16px;padding-left:16px;">
                         <!-- logo & social -->
                         <table cellpadding="0" cellspacing="0" border="0" width="100%">
                           <tr>
                             <td style="padding-bottom:24px;" >
-                              <table class="content-body--gray" align="center" cellpadding="0" cellspacing="0" bgcolor="#f6f6f6" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#f6f6f6;width:600px;" > 
+                              <table align="center" cellpadding="0" cellspacing="0" bgcolor="#f6f6f6" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#f6f6f6;width:568px;" > 
                                 <tr>
                                   <td class="mobile_p24t mobile_p0b" align="left" style="padding-top:52px;padding-bottom:12px;padding-left:0;padding-right:0;Margin:0;" >
-                                    <!--[if mso]><table  cellpadding="0" cellspacing="0" bgcolor="#f6f6f6" style="width:600px;" >
+                                    <!--[if mso]><table  cellpadding="0" cellspacing="0" bgcolor="#f6f6f6" style="width:568px;" >
                                     <tr><td  valign="top" style="width:274px;" ><![endif]-->
                                       <table cellpadding="0" cellspacing="0" class="content-right" align="right" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:right;" >
                                         <tr>
@@ -147,10 +148,11 @@
                                             </table>
                                           </td>
                                         </tr>
-                                      </table>                                      <!--[if mso]></td><td style="width:0px;" ></td><td  valign="top" style="width:140px;" ><![endif]-->
+                                      </table>                                      
+                                      <!--[if mso]></td><td style="width:0px;" ></td><td  valign="top" style="width:140px;" ><![endif]-->
                                         <table class="content-left" cellpadding="0" cellspacing="0" align="left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:left;" >
                                           <tr>
-                                            <td class="mobile_p0l menu" align="center" style="Margin:0;width:140px;float:left;padding-top:0px;padding-bottom:0px;padding-left:32px;padding-right:0px;" >
+                                            <td class="mobile_p0l" align="center" style="Margin:0;width:140px;padding-top:0px;padding-bottom:0px;padding-left:32px;padding-right:0px;" >
                                               <table cellpadding="0" cellspacing="0" border="0" width="100%">
                                                   <tr>
                                                     <td  align="center" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;font-size:14px;color:#000000;" >
@@ -177,12 +179,12 @@
                             <td>
                               <table class="content-body" align="center" cellpadding="0" border="0" cellspacing="0" bgcolor="#ffffff" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#ffffff;width:568px;border-radius: 15px 15px 0 0" > 
                                 <tr>
-                                  <td align="left" style="padding-top:0px;padding-bottom:0px;padding-left:0;padding-right:0;Margin:0;border-top-left-radius:15px;" >
+                                  <td class="table-radius" align="left" style="padding-top:0px;padding-bottom:0px;padding-left:0;padding-right:0;Margin:0;border-top-left-radius:15px;" >
                                     <!--[if mso]><table  cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="width:568px;" >
                                     <tr><td  valign="top" style="width:284px;" ><![endif]-->
                                       <table class="content-left" cellpadding="0" cellspacing="0" align="left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:left;" >
                                         <tr>
-                                          <td class="full_td" align="left"  bgcolor="#ffffff" style="Margin:0;width:284px;float:left;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:#FF4B33;border-radius: 15px 0 0 0;" >
+                                          <td class="table-radius" align="left"  bgcolor="#ffffff" style="Margin:0;width:284px;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:#FF4B33;border-radius: 15px 0 0 0;" >
                                             <table cellpadding="0" cellspacing="0" border="0" width="100%">
                                               <tr>
                                                 <td align="left" style="font-family:'trebuchet ms', tahoma, sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;font-size:36px;line-height:42px;text-align:left;color:#ffffff;padding-top:32px;padding-bottom:0;padding-right:0;padding-left:32px;Margin:0;" >
@@ -221,11 +223,11 @@
                                     <!--[if mso]></td><td style="width:0px;" ></td><td  valign="top" style="width:284px;" ><![endif]-->
                                       <table cellpadding="0" cellspacing="0" class="content-right" align="right" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:right;" >
                                         <tr>
-                                          <td class="full_td" align="center" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0;width:284px;" >                               
+                                          <td align="center" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0;width:284px;" >                               
                                             <table align="center" width="100%" cellspacing="0" cellpadding="0" border="0">
                                               <tr>
                                                 <td  align="center" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;font-size:14px;color:#000000;" >
-                                                  <img src="https://raw.githubusercontent.com/ss504/1413799-play-html-1/master/3-promo/img/Croods-Party.png" alt="Croods Party" width="284" height="271" border="0" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" />
+                                                  <img class="adaptive-img" src="https://raw.githubusercontent.com/ss504/1413799-play-html-1/master/3-promo/img/Croods-Party.png" alt="Croods Party" width="284" height="271" border="0" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" />
                                                 </td>
                                               </tr>
                                             </table>
@@ -264,7 +266,7 @@
                                       <tr><td  valign="top" style="width:213px;" ><![endif]-->
                                         <table class="content-left" cellpadding="0" cellspacing="0" align="left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:left;" >
                                           <tr>
-                                            <td align="left" style="Margin:0;width:213px;float:left;padding-top:0px;padding-bottom:0px;padding-left:36px;padding-right:35px;" >
+                                            <td align="left" style="Margin:0;width:213px;padding-top:0px;padding-bottom:0px;padding-left:36px;padding-right:35px;" >
                                               <table cellpadding="0" cellspacing="0" border="0" width="100%">
                                                 <tr>
                                                   <td  align="center"  style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;font-size:14px;color:#000000;" >
@@ -293,7 +295,7 @@
                                       <!--[if mso]></td><td style="width:0px;" ></td><td  valign="top" style="width:213px;" ><![endif]-->
                                         <table class="content-right" cellpadding="0" cellspacing="0" align="right" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:right;" >
                                           <tr>
-                                            <td align="right" style="Margin:0;width:213px;float:right;padding-top:0px;padding-bottom:8px;padding-left:36px;padding-right:35px;" >
+                                            <td align="right" style="Margin:0;width:213px;padding-top:0px;padding-bottom:8px;padding-left:36px;padding-right:35px;" >
                                               <table cellpadding="0" cellspacing="0" border="0" width="100%">
                                                 <tr>
                                                   <td  align="center" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;font-size:14px;color:#000000;" >
@@ -336,7 +338,7 @@
                                       <tr><td  valign="top" style="width:227px;" ><![endif]-->
                                         <table class="content-left" cellpadding="0" cellspacing="0" align="left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:left;" >
                                           <tr>
-                                            <td align="left" style="Margin:0;width:227px;float:left;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;" >
+                                            <td align="left" style="Margin:0;width:227px;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;" >
                                               <table cellpadding="0" cellspacing="0" border="0" width="100%">
                                                 <tr>
                                                   <td  align="center" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;font-size:14px;color:#000000;" >
@@ -365,7 +367,7 @@
                                       <!--[if mso]></td><td style="width:0px;" ></td><td  valign="top" style="width:213px;" ><![endif]-->
                                         <table class="content-right" cellpadding="0" cellspacing="0" align="right" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:right;" >
                                           <tr>
-                                            <td align="right" style="Margin:0;width:213px;float:right;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;" >
+                                            <td align="right" style="Margin:0;width:213px;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;" >
                                               <table cellpadding="0" cellspacing="0" border="0" width="100%">
                                                 <tr>
                                                   <td  align="center"  style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;font-size:14px;color:#000000;" >
@@ -420,10 +422,10 @@
                                 <tr>
                                   <td align="left" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0;" >
                                     <!--[if mso]><table  cellpadding="0" cellspacing="0" style="width:568px;" >
-                                    <tr><td  valign="top" style="width:152px;" ><![endif]-->
+                                    <tr><td  valign="top" style="width:136px;" ><![endif]-->
                                       <table class="content-left" cellpadding="0" cellspacing="0" align="left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:left;" >
                                         <tr>
-                                          <td align="left" style="Margin:0;width:152px;float:left;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;" >
+                                          <td align="left" style="Margin:0;width:136px;padding-top:0px;padding-bottom:28px;padding-left:0px;padding-right:0px;" >
                                             <table cellpadding="0" cellspacing="0" border="0" width="100%">
                                               <tr>
                                                 <td  align="center"  height="110" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;font-size:14px;color:#000000;" >
@@ -442,7 +444,7 @@
                                       <!--[if mso]></td><td style="width:0px;" ></td><td  valign="top" style="width:395px;" ><![endif]-->
                                         <table class="content-right" cellpadding="0" cellspacing="0" align="right" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:right;" >
                                           <tr>
-                                            <td align="right" style="Margin:0;width:395px;float:right;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:12px;" >
+                                            <td align="right" style="Margin:0;width:395px;padding-top:0px;padding-bottom:0px;padding-left:16px;padding-right:16px;" >
                                               <table cellpadding="0" cellspacing="0" border="0" width="100%">
                                                 <tr>
                                                   <td align="left" style="font-family:'trebuchet ms', tahoma, sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;font-size:16px;line-height:19px;text-align:left;color:#13D6C3;padding-top:0px;padding-bottom:17pxpx;padding-left:0;padding-right:12px;Margin:0;" >
@@ -504,7 +506,7 @@
                                     <tr><td  valign="top" style="width:152px;" ><![endif]-->
                                       <table class="content-left" cellpadding="0" cellspacing="0" align="left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:left;" >
                                         <tr>
-                                          <td align="left" style="Margin:0;width:152px;float:left;padding-top:0px;padding-bottom:0px;padding-left:12px;padding-right:12px;" >
+                                          <td align="left" style="Margin:0;width:152px;padding-top:0px;padding-bottom:40px;padding-left:12px;padding-right:12px;" >
                                             <table cellpadding="0" cellspacing="0" border="0" width="100%">
                                               <tr>
                                                 <td  align="center" style="padding-top:0;padding-bottom:0;padding-right:0px;padding-left:0;Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;font-size:14px;color:#000000;" >
@@ -527,7 +529,7 @@
                                     <!--[if mso]></td><td style="width:0px;" ></td><td  valign="top" style="width:152px;" ><![endif]-->
                                       <table class="content-left" cellpadding="0" cellspacing="0" align="left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:left;" >
                                         <tr>
-                                          <td align="left" style="Margin:0;width:152px;float:left;padding-top:0px;padding-bottom:0px;padding-left:12px;padding-right:12px;" >
+                                          <td align="left" style="Margin:0;width:152px;padding-top:0px;padding-bottom:40px;padding-left:12px;padding-right:12px;" >
                                             <table cellpadding="0" cellspacing="0" border="0" width="100%">
                                               <tr>
                                                 <td  align="center" style="padding-top:0;padding-bottom:0;padding-right:0px;padding-left:0px;Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;font-size:14px;color:#000000;" >
@@ -551,7 +553,7 @@
                                       <!--[if mso]></td><td style="width:0px;" ></td><td  valign="top" style="width:152px;" ><![endif]-->
                                       <table class="content-right" cellpadding="0" cellspacing="0" align="right" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:right;" >
                                         <tr>
-                                          <td align="right" style="Margin:0;width:152px;float:right;padding-top:0px;padding-bottom:0px;padding-left:12px;padding-right:12px;" >
+                                          <td align="right" style="Margin:0;width:152px;padding-top:0px;padding-bottom:40px;padding-left:12px;padding-right:12px;" >
                                             <table cellpadding="0" cellspacing="0" border="0" width="100%">
                                               <tr>
                                                 <td  align="center" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;font-size:14px;color:#000000;" >
@@ -586,8 +588,8 @@
                             <td>
                               <table class="content-body" align="center" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#ffffff;width:568px;" > 
                                 <tr>
-                                  <td align="center" style="padding-top:15px;;padding-bottom:0;padding-right:0;padding-left:0;Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;font-size:14px;color:#000000;" >
-                                    <img src="https://raw.githubusercontent.com/ss504/1413799-play-html-1/master/3-promo/img/Croods-Feedback.jpg" alt="Croods Feedback" width="300" height="300" border="0" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" />
+                                  <td align="center" style="padding-top:0px;padding-bottom:0;padding-right:0;padding-left:0;Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;font-size:14px;color:#000000;" >
+                                    <img class="adaptive-img" src="https://raw.githubusercontent.com/ss504/1413799-play-html-1/master/3-promo/img/Croods-Feedback.jpg" alt="Croods Feedback" width="300" height="300" border="0" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" />
                                   </td>
                                 </tr>
                                 <tr>
